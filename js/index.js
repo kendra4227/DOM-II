@@ -49,5 +49,5 @@ disappear.addEventListener("mouseout", (event)=>{
 
 const photoSpin = document.querySelector(".spin")
 photoSpin.addEventListener("click", (event) =>{
-event.target.classList.toggle("spinPhoto")
+event.target.classList.toggle("photoSpin")
 })
